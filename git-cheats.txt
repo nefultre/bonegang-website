@@ -6,20 +6,22 @@ STARTUP
 	-check for any differences in file versions
 
 WORKFLOW
-3. git checkout -b insert-branch-feature-name
+1. git checkout -b insert-branch-feature-name
 	-change to new branch for creating new project feature
 
-4. git add .
+2. git add .
 	-add all files changes to the staging area for commit
 
-5. git commit -m "insert descriptive message here"
+3. git commit -m "insert descriptive message here"
 	-commit change to local repo branch
 
-6. git push origin main
-	-push main branch to remote repo
-
-7. git push origin branch-name
+4. git push origin branch-name
 	-to push branch to remote for merge request to main repo
 
-8. git checkout main
+
+OTHERS
+1. git checkout main
 	-switch back to main branch
+
+2. git push origin main
+	-push main branch to remote repo
