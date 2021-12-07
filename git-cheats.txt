@@ -1,0 +1,25 @@
+STARTUP
+1. git pull origin main
+	-to check if any changes have been made by others and to update your local repo to current version
+
+2. git status
+	-check for any differences in file versions
+
+WORKFLOW
+3. git checkout -b insert-branch-feature-name
+	-change to new branch for creating new project feature
+
+4. git add .
+	-add all files changes to the staging area for commit
+
+5. git commit -m "insert descriptive message here"
+	-commit change to local repo branch
+
+6. git push origin main
+	-push main branch to remote repo
+
+7. git push origin branch-name
+	-to push branch to remote for merge request to main repo
+
+8. git checkout main
+	-switch back to main branch
